@@ -1,0 +1,16 @@
+{
+  "name": "onedrive-api-client",
+  "version": "1.0.0",
+  "description": "A Node.js application for interacting with Microsoft OneDrive API using client credentials flow.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Suresh",
+  "dependencies": {
+    "@azure/msal-node": "^1.8.1",
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.19.2"
+  }
+}
